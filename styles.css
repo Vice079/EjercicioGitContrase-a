@@ -1,0 +1,17 @@
+body {
+    background-color: aqua;
+}
+#alinear {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+#entrada {
+    width: 300px;
+    border-radius: 8px;
+    border: 0px;
+    padding: 5px;
+    text-align: center;
+}

@@ -1,17 +1,45 @@
 body {
-    background-color: aqua;
+    background-color: rgb(59, 103, 103);
 }
 #alinear {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     margin-top: 200px;
 }
 #entrada {
     width: 300px;
-    border-radius: 8px;
-    border: 0px;
+    border-radius: 25px;
+    border: 5px;
     padding: 5px;
     text-align: center;
+    border-style: double;
+    border-color: color(black);
+}
+#usuario {
+    width: 300px;
+    border-radius: 25px;
+    border: 5px;
+    padding: 5px;
+    text-align: center;
+    border-style: double;
+    border-color: color(black);
+    margin-bottom: 10px;
+}
+
+#boton {
+    width: 327px;
+    border-radius: 25px;
+    border: 5px;
+    padding: 5px;
+    text-align: center;
+    border-style: double;
+    border-color: color(black);
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: green;
+}
+
+#boton:disabled {
+    background-color: grey;
 }
